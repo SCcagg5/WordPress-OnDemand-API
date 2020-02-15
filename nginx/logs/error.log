@@ -1,0 +1,35 @@
+2020/02/15 13:53:04 [notice] 49#49: signal process started
+2020/02/15 13:53:04 [notice] 60#60: signal process started
+2020/02/15 13:53:04 [notice] 73#73: signal process started
+2020/02/15 13:53:05 [notice] 83#83: signal process started
+2020/02/15 13:53:05 [notice] 114#114: signal process started
+2020/02/15 13:53:07 [notice] 145#145: signal process started
+2020/02/15 13:53:32 [notice] 176#176: signal process started
+2020/02/15 14:37:44 [notice] 193#193: signal process started
+2020/02/15 14:37:45 [notice] 202#202: signal process started
+2020/02/15 14:39:12 [notice] 211#211: signal process started
+2020/02/15 14:39:14 [notice] 220#220: signal process started
+2020/02/15 14:40:00 [notice] 229#229: signal process started
+2020/02/15 14:44:48 [notice] 238#238: signal process started
+2020/02/15 14:46:57 [notice] 247#247: signal process started
+2020/02/15 14:46:58 [notice] 256#256: signal process started
+2020/02/15 14:47:07 [notice] 265#265: signal process started
+2020/02/15 14:47:08 [notice] 274#274: signal process started
+2020/02/15 14:47:11 [notice] 283#283: signal process started
+2020/02/15 14:50:16 [notice] 292#292: signal process started
+2020/02/15 14:50:17 [notice] 301#301: signal process started
+2020/02/15 15:39:57 [emerg] 28#28: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:40:00 [emerg] 29#29: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:53:46 [emerg] 28#28: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:53:50 [emerg] 32#32: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:53:51 [emerg] 30#30: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:53:53 [emerg] 31#31: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:53:54 [emerg] 33#33: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:53:57 [emerg] 29#29: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:54:00 [emerg] 29#29: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:54:07 [emerg] 32#32: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:54:21 [emerg] 33#33: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:54:47 [emerg] 28#28: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:55:22 [emerg] 32#32: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:55:24 [emerg] 28#28: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 15:55:26 [emerg] 31#31: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
