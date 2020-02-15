@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 networks:
    back-net:
      driver: bridge
@@ -28,21 +28,22 @@ services:
      stdin_open: true
      depends_on:
        - datab
+     ports:
+       - 8080
      networks:
        - back-net
        - proxy
      volumes:
        - ./api:/home/api/
        - ./wordpress/src:/srv/src/
-       - ./wordpress/data:/srv/www/
        - ./wordpress/project:/wordpress/
        - /var/run/docker.sock:/var/run/docker.sock
-       - /usr/bin/docker-compose:/usr/bin/docker-compose
+       - /usr/local/bin/docker-compose:/usr/bin/docker-compose
        - /usr/bin/docker:/usr/bin/docker
      environment:
-       VIRTUAL_HOST: api.${DOMAIN}
+       VIRTUAL_HOST: sql.${DOMAIN}
        VIRTUAL_PORT: 8080
-       LETSENCRYPT_HOST: api.${DOMAIN}
+       LETSENCRYPT_HOST: sql.${DOMAIN}
        LETSENCRYPT_EMAIL: ${EMAIL}
        API_MOD: ${API_MOD}
 
@@ -65,9 +66,9 @@ services:
        - back-net
        - proxy
      environment:
-       VIRTUAL_HOST: sql.${DOMAIN}
+       VIRTUAL_HOST: sqla.${DOMAIN}
        VIRTUAL_PORT: 80
-       LETSENCRYPT_HOST: sql.${DOMAIN}
+       LETSENCRYPT_HOST: sqla.${DOMAIN}
        LETSENCRYPT_EMAIL: ${EMAIL}
 
    webapp:

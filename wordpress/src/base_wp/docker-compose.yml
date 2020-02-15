@@ -3,37 +3,37 @@ version: '3'
 services:
 
   db:
-    container_name: $DB_CONTAINER
+    container_name: $V_DB_CONTAINER
     image: mariadb:latest
     restart: always
     volumes:
-      - /srv/www/${VIRTUAL_HOST}/db_data:/var/lib/mysql
+      - ${V_AB_PATH}${V_VIRTUAL_HOST}/db_data:/var/lib/mysql
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: 1
-      MYSQL_DATABASE: $DB_NAME
-      MYSQL_USER: $DB_USER
-      MYSQL_PASSWORD: $DB_PASSWORD
+      MYSQL_DATABASE: $V_DB_NAME
+      MYSQL_USER: $V_DB_USER
+      MYSQL_PASSWORD: $V_DB_PASSWORD
 
   wp:
-    container_name: $WP_CONTAINER
+    container_name: $V_WP_CONTAINER
     build: .
     depends_on:
       - db
     restart: always
     volumes:
-      - /srv/www/${VIRTUAL_HOST}/html:/var/www/html:rw
+      - ${V_AB_PATH}${V_VIRTUAL_HOST}/html:/var/www/html:rw
     environment:
-      WORDPRESS_DB_HOST: $DB_CONTAINER
-      WORDPRESS_DB_NAME: $DB_NAME
-      WORDPRESS_DB_USER: $DB_USER
-      WORDPRESS_DB_PASSWORD: $DB_PASSWORD
-      WORDPRESS_TABLE_PREFIX: $WP_TABLE_PREFIX
-      VIRTUAL_HOST: $VIRTUAL_HOST
-      VIRTUAL_PORT: $VIRTUAL_PORT
-      LETSENCRYPT_HOST: $VIRTUAL_HOST
-      LETSENCRYPT_EMAIL: $LETSENCRYPT_EMAIL
+      WORDPRESS_DB_HOST: $V_DB_CONTAINER
+      WORDPRESS_DB_NAME: $V_DB_NAME
+      WORDPRESS_DB_USER: $V_DB_USER
+      WORDPRESS_DB_PASSWORD: $V_DB_PASSWORD
+      WORDPRESS_TABLE_PREFIX: $V_WP_TABLE_PREFIX
+      VIRTUAL_HOST: $V_VIRTUAL_HOST
+      VIRTUAL_PORT: $V_VIRTUAL_PORT
+      LETSENCRYPT_HOST: $V_VIRTUAL_HOST
+      LETSENCRYPT_EMAIL: $V_LETSENCRYPT_EMAIL
 
 networks:
   default:
     external:
-      name: proxy
+      name: wordpress-ondemand-api_proxy

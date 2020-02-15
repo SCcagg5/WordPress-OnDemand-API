@@ -209,7 +209,7 @@ def gettokenadm(cn, nextc):
     err = use.gettoken()
     return cn.call_next(nextc, err)
 
-def wordpress(cn, nextc):
+def wordpressb(cn, nextc):
     err = check.contain(cn.pr, ["domain"])
     if not err[0]:
         return cn.toret.add_error(err[1], err[2])

@@ -33,3 +33,182 @@
 2020/02/15 15:55:22 [emerg] 32#32: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
 2020/02/15 15:55:24 [emerg] 28#28: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
 2020/02/15 15:55:26 [emerg] 31#31: cannot load certificate "/etc/nginx/certs/default.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/default.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/15 19:49:15 [notice] 40#40: signal process started
+2020/02/15 19:49:17 [notice] 48#48: signal process started
+2020/02/15 19:49:19 [notice] 72#72: signal process started
+2020/02/15 19:49:25 [error] 93#93: *1 no live upstreams while connecting to upstream, client: 52.15.254.228, server: api.rectoverso.store, request: "GET /.well-known/acme-challenge/yQAttZN3EkYz0_s-GoBBJeeXUO6-rnZzP2Q04uBdyxk HTTP/1.1", upstream: "http://api.rectoverso.store/.well-known/acme-challenge/yQAttZN3EkYz0_s-GoBBJeeXUO6-rnZzP2Q04uBdyxk", host: "api.rectoverso.store"
+2020/02/15 19:49:25 [error] 93#93: *2 no live upstreams while connecting to upstream, client: 34.222.229.130, server: api.rectoverso.store, request: "GET /.well-known/acme-challenge/yQAttZN3EkYz0_s-GoBBJeeXUO6-rnZzP2Q04uBdyxk HTTP/1.1", upstream: "http://api.rectoverso.store/.well-known/acme-challenge/yQAttZN3EkYz0_s-GoBBJeeXUO6-rnZzP2Q04uBdyxk", host: "api.rectoverso.store"
+2020/02/15 19:49:25 [error] 93#93: *3 no live upstreams while connecting to upstream, client: 66.133.109.36, server: api.rectoverso.store, request: "GET /.well-known/acme-challenge/yQAttZN3EkYz0_s-GoBBJeeXUO6-rnZzP2Q04uBdyxk HTTP/1.1", upstream: "http://api.rectoverso.store/.well-known/acme-challenge/yQAttZN3EkYz0_s-GoBBJeeXUO6-rnZzP2Q04uBdyxk", host: "api.rectoverso.store"
+2020/02/15 19:49:25 [error] 93#93: *4 no live upstreams while connecting to upstream, client: 52.28.236.88, server: api.rectoverso.store, request: "GET /.well-known/acme-challenge/yQAttZN3EkYz0_s-GoBBJeeXUO6-rnZzP2Q04uBdyxk HTTP/1.1", upstream: "http://api.rectoverso.store/.well-known/acme-challenge/yQAttZN3EkYz0_s-GoBBJeeXUO6-rnZzP2Q04uBdyxk", host: "api.rectoverso.store"
+2020/02/15 19:49:45 [notice] 96#96: signal process started
+2020/02/15 19:49:45 [notice] 101#101: signal process started
+2020/02/15 19:51:18 [notice] 37#37: signal process started
+2020/02/15 19:51:19 [notice] 44#44: signal process started
+2020/02/15 19:51:19 [notice] 48#48: signal process started
+2020/02/15 19:51:20 [notice] 55#55: signal process started
+2020/02/15 19:51:21 [notice] 79#79: signal process started
+2020/02/15 19:51:23 [notice] 103#103: signal process started
+2020/02/15 19:51:29 [notice] 108#108: signal process started
+2020/02/15 19:51:30 [notice] 113#113: signal process started
+2020/02/15 19:51:50 [notice] 118#118: signal process started
+2020/02/15 19:51:51 [notice] 123#123: signal process started
+2020/02/15 19:51:53 [notice] 148#148: signal process started
+2020/02/15 19:51:55 [notice] 172#172: signal process started
+2020/02/15 19:56:56 [notice] 177#177: signal process started
+2020/02/15 19:57:00 [notice] 181#181: signal process started
+2020/02/15 19:57:28 [notice] 185#185: signal process started
+2020/02/15 19:57:48 [error] 186#186: *37 no live upstreams while connecting to upstream, client: 18.194.58.132, server: api.rectoverso.store, request: "GET /.well-known/acme-challenge/CZm-WYDfCD7LbZ5Y9Qt4zuVlXVC45wyFGGchTrMzXWM HTTP/1.1", upstream: "http://api.rectoverso.store/.well-known/acme-challenge/CZm-WYDfCD7LbZ5Y9Qt4zuVlXVC45wyFGGchTrMzXWM", host: "api.rectoverso.store"
+2020/02/15 19:57:48 [error] 186#186: *38 no live upstreams while connecting to upstream, client: 64.78.149.164, server: api.rectoverso.store, request: "GET /.well-known/acme-challenge/CZm-WYDfCD7LbZ5Y9Qt4zuVlXVC45wyFGGchTrMzXWM HTTP/1.1", upstream: "http://api.rectoverso.store/.well-known/acme-challenge/CZm-WYDfCD7LbZ5Y9Qt4zuVlXVC45wyFGGchTrMzXWM", host: "api.rectoverso.store"
+2020/02/15 19:57:48 [error] 186#186: *39 no live upstreams while connecting to upstream, client: 3.14.255.131, server: api.rectoverso.store, request: "GET /.well-known/acme-challenge/CZm-WYDfCD7LbZ5Y9Qt4zuVlXVC45wyFGGchTrMzXWM HTTP/1.1", upstream: "http://api.rectoverso.store/.well-known/acme-challenge/CZm-WYDfCD7LbZ5Y9Qt4zuVlXVC45wyFGGchTrMzXWM", host: "api.rectoverso.store"
+2020/02/15 19:57:48 [error] 186#186: *40 no live upstreams while connecting to upstream, client: 34.222.229.130, server: api.rectoverso.store, request: "GET /.well-known/acme-challenge/CZm-WYDfCD7LbZ5Y9Qt4zuVlXVC45wyFGGchTrMzXWM HTTP/1.1", upstream: "http://api.rectoverso.store/.well-known/acme-challenge/CZm-WYDfCD7LbZ5Y9Qt4zuVlXVC45wyFGGchTrMzXWM", host: "api.rectoverso.store"
+2020/02/15 19:58:23 [error] 186#186: *55 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 19:59:40 [error] 186#186: *65 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET / HTTP/1.1", upstream: "http://api.rectoverso.store/", host: "api.rectoverso.store"
+2020/02/15 19:59:40 [error] 186#186: *66 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /robots.txt HTTP/1.1", upstream: "http://api.rectoverso.store/robots.txt", host: "api.rectoverso.store"
+2020/02/15 19:59:40 [error] 186#186: *66 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /favicon.ico HTTP/1.1", upstream: "http://api.rectoverso.store/favicon.ico", host: "api.rectoverso.store", referrer: "http://api.rectoverso.store/"
+2020/02/15 19:59:47 [error] 186#186: *67 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 19:59:47 [error] 186#186: *67 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /favicon.ico HTTP/1.1", upstream: "http://api.rectoverso.store/favicon.ico", host: "api.rectoverso.store", referrer: "http://api.rectoverso.store/test/"
+2020/02/15 20:00:35 [notice] 36#36: signal process started
+2020/02/15 20:00:36 [notice] 44#44: signal process started
+2020/02/15 20:00:37 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:38 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:38 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:40 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:41 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:41 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:42 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:42 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:43 [error] 45#45: *1 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /test/ HTTP/1.1", upstream: "http://api.rectoverso.store/test/", host: "api.rectoverso.store"
+2020/02/15 20:00:48 [error] 45#45: *2 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET / HTTP/1.1", upstream: "http://api.rectoverso.store/", host: "api.rectoverso.store"
+2020/02/15 20:00:48 [error] 45#45: *2 no live upstreams while connecting to upstream, client: 86.247.191.78, server: api.rectoverso.store, request: "GET /favicon.ico HTTP/1.1", upstream: "http://api.rectoverso.store/favicon.ico", host: "api.rectoverso.store", referrer: "http://api.rectoverso.store/"
+2020/02/15 20:06:14 [notice] 49#49: signal process started
+2020/02/15 20:06:31 [notice] 39#39: signal process started
+2020/02/15 20:06:37 [notice] 46#46: signal process started
+2020/02/15 20:06:38 [notice] 52#52: signal process started
+2020/02/15 20:06:40 [notice] 77#77: signal process started
+2020/02/15 20:08:12 [notice] 103#103: signal process started
+2020/02/15 20:09:07 [error] 105#105: *66 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "GET / HTTP/1.1", upstream: "http://sql.rectoverso.store/", host: "sql.rectoverso.store"
+2020/02/15 20:09:07 [error] 105#105: *65 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "GET /robots.txt HTTP/1.1", upstream: "http://sql.rectoverso.store/robots.txt", host: "sql.rectoverso.store"
+2020/02/15 20:10:01 [notice] 108#108: signal process started
+2020/02/15 20:10:01 [notice] 112#112: signal process started
+2020/02/15 20:10:02 [notice] 116#116: signal process started
+2020/02/15 20:19:24 [notice] 120#120: signal process started
+2020/02/15 20:19:25 [notice] 124#124: signal process started
+2020/02/15 20:19:25 [notice] 128#128: signal process started
+2020/02/15 20:22:47 [notice] 132#132: signal process started
+2020/02/15 20:22:48 [notice] 136#136: signal process started
+2020/02/15 20:26:18 [notice] 140#140: signal process started
+2020/02/15 20:26:20 [notice] 144#144: signal process started
+2020/02/15 20:26:20 [notice] 149#149: signal process started
+2020/02/15 20:30:13 [notice] 153#153: signal process started
+2020/02/15 20:30:15 [notice] 157#157: signal process started
+2020/02/15 20:34:51 [notice] 161#161: signal process started
+2020/02/15 20:35:59 [notice] 165#165: signal process started
+2020/02/15 20:35:59 [notice] 169#169: signal process started
+2020/02/15 20:36:01 [notice] 173#173: signal process started
+2020/02/15 20:40:24 [notice] 177#177: signal process started
+2020/02/15 20:41:03 [notice] 181#181: signal process started
+2020/02/15 20:41:17 [notice] 185#185: signal process started
+2020/02/15 20:41:19 [notice] 189#189: signal process started
+2020/02/15 20:49:58 [notice] 40#40: signal process started
+2020/02/15 20:50:02 [notice] 48#48: signal process started
+2020/02/15 20:50:03 [notice] 53#53: signal process started
+2020/02/15 20:50:04 [notice] 58#58: signal process started
+2020/02/15 20:50:06 [notice] 83#83: signal process started
+2020/02/15 20:50:24 [error] 104#104: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 18.194.58.132, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8 HTTP/1.1", upstream: "http://172.24.0.6:8080/.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8", host: "sql.rectoverso.store"
+2020/02/15 20:50:24 [warn] 104#104: *9 upstream server temporarily disabled while connecting to upstream, client: 18.194.58.132, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8 HTTP/1.1", upstream: "http://172.24.0.6:8080/.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8", host: "sql.rectoverso.store"
+2020/02/15 20:50:24 [error] 104#104: *9 no live upstreams while connecting to upstream, client: 18.194.58.132, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8", host: "sql.rectoverso.store"
+2020/02/15 20:50:24 [error] 104#104: *11 no live upstreams while connecting to upstream, client: 3.14.255.131, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8", host: "sql.rectoverso.store"
+2020/02/15 20:50:24 [error] 104#104: *12 no live upstreams while connecting to upstream, client: 34.222.229.130, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8", host: "sql.rectoverso.store"
+2020/02/15 20:50:24 [error] 104#104: *13 no live upstreams while connecting to upstream, client: 64.78.149.164, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/ZfaY_neWxlgTxWKjT4M_ntVOwtJfgu07aGrAvjdZLS8", host: "sql.rectoverso.store"
+2020/02/15 20:55:22 [notice] 108#108: signal process started
+2020/02/15 21:19:13 [notice] 40#40: signal process started
+2020/02/15 21:19:14 [notice] 67#67: signal process started
+2020/02/15 21:19:15 [notice] 48#48: signal process started
+2020/02/15 21:19:16 [notice] 77#77: signal process started
+2020/02/15 21:19:36 [notice] 103#103: signal process started
+2020/02/15 21:20:36 [notice] 109#109: signal process started
+2020/02/15 21:21:07 [notice] 41#41: signal process started
+2020/02/15 21:21:07 [notice] 48#48: signal process started
+2020/02/15 21:21:10 [notice] 53#53: signal process started
+2020/02/15 21:21:12 [notice] 78#78: signal process started
+2020/02/15 21:21:12 [notice] 99#99: signal process started
+2020/02/15 21:21:37 [notice] 109#109: signal process started
+2020/02/15 21:21:59 [notice] 40#40: signal process started
+2020/02/15 21:22:00 [notice] 47#47: signal process started
+2020/02/15 21:22:02 [notice] 67#67: signal process started
+2020/02/15 21:22:03 [notice] 52#52: signal process started
+2020/02/15 21:22:03 [notice] 79#79: signal process started
+2020/02/15 21:22:03 [notice] 88#88: signal process started
+2020/02/15 21:22:05 [notice] 93#93: signal process started
+2020/02/15 21:22:14 [notice] 118#118: signal process started
+2020/02/15 21:22:15 [error] 121#121: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 52.28.236.88, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw HTTP/1.1", upstream: "http://192.168.64.7:8080/.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw", host: "sql.rectoverso.store"
+2020/02/15 21:22:15 [warn] 121#121: *7 upstream server temporarily disabled while connecting to upstream, client: 52.28.236.88, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw HTTP/1.1", upstream: "http://192.168.64.7:8080/.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw", host: "sql.rectoverso.store"
+2020/02/15 21:22:15 [error] 121#121: *7 no live upstreams while connecting to upstream, client: 52.28.236.88, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw", host: "sql.rectoverso.store"
+2020/02/15 21:22:16 [error] 121#121: *9 no live upstreams while connecting to upstream, client: 52.15.254.228, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw", host: "sql.rectoverso.store"
+2020/02/15 21:22:16 [error] 121#121: *10 no live upstreams while connecting to upstream, client: 34.222.229.130, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw", host: "sql.rectoverso.store"
+2020/02/15 21:22:16 [error] 121#121: *11 no live upstreams while connecting to upstream, client: 66.133.109.36, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/dxd8fnqStqhOI5wUIu5n0POsnp03IcFkTse2JxlcEJw", host: "sql.rectoverso.store"
+2020/02/15 21:23:25 [notice] 124#124: signal process started
+2020/02/15 21:24:22 [notice] 128#128: signal process started
+2020/02/15 22:45:54 [notice] 40#40: signal process started
+2020/02/15 22:45:54 [notice] 47#47: signal process started
+2020/02/15 22:45:56 [notice] 52#52: signal process started
+2020/02/15 22:45:58 [notice] 76#76: signal process started
+2020/02/15 22:46:10 [error] 97#97: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 52.15.254.228, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70 HTTP/1.1", upstream: "http://192.168.160.6:8080/.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70", host: "sql.rectoverso.store"
+2020/02/15 22:46:10 [warn] 97#97: *9 upstream server temporarily disabled while connecting to upstream, client: 52.15.254.228, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70 HTTP/1.1", upstream: "http://192.168.160.6:8080/.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70", host: "sql.rectoverso.store"
+2020/02/15 22:46:10 [error] 97#97: *9 no live upstreams while connecting to upstream, client: 52.15.254.228, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70", host: "sql.rectoverso.store"
+2020/02/15 22:46:10 [error] 97#97: *11 no live upstreams while connecting to upstream, client: 66.133.109.36, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70", host: "sql.rectoverso.store"
+2020/02/15 22:46:10 [error] 97#97: *12 no live upstreams while connecting to upstream, client: 18.194.58.132, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/BDFTfDrH9EJYeNswuOAdTMOMS21b2AUixGeZdHKdu70", host: "sql.rectoverso.store"
+2020/02/15 22:46:51 [notice] 102#102: signal process started
+2020/02/15 22:49:58 [notice] 108#108: signal process started
+2020/02/15 22:50:00 [notice] 112#112: signal process started
+2020/02/15 22:50:00 [notice] 116#116: signal process started
+2020/02/15 22:50:03 [error] 118#118: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://192.168.160.6:8080/login/", host: "sql.rectoverso.store"
+2020/02/15 22:50:03 [warn] 118#118: *27 upstream server temporarily disabled while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://192.168.160.6:8080/login/", host: "sql.rectoverso.store"
+2020/02/15 22:50:03 [error] 118#118: *27 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:50:04 [error] 118#118: *27 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:50:04 [error] 118#118: *27 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:50:05 [error] 118#118: *27 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:50:05 [error] 118#118: *27 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:50:06 [error] 118#118: *27 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:50:06 [error] 118#118: *27 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:51:53 [notice] 120#120: signal process started
+2020/02/15 22:51:54 [notice] 124#124: signal process started
+2020/02/15 22:54:11 [notice] 40#40: signal process started
+2020/02/15 22:54:12 [notice] 48#48: signal process started
+2020/02/15 22:54:13 [notice] 53#53: signal process started
+2020/02/15 22:54:14 [notice] 58#58: signal process started
+2020/02/15 22:54:16 [notice] 83#83: signal process started
+2020/02/15 22:54:26 [error] 105#105: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://192.168.192.4:8080/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:26 [warn] 105#105: *7 upstream server temporarily disabled while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://192.168.192.4:8080/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:26 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:28 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:29 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:29 [error] 105#105: *9 no live upstreams while connecting to upstream, client: 52.15.254.228, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/iBiEqv_coDBG-QNNPWYy1vUSq9kCbjRI2dpm0ErQc-4 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/iBiEqv_coDBG-QNNPWYy1vUSq9kCbjRI2dpm0ErQc-4", host: "sql.rectoverso.store"
+2020/02/15 22:54:29 [error] 105#105: *10 no live upstreams while connecting to upstream, client: 34.209.232.166, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/iBiEqv_coDBG-QNNPWYy1vUSq9kCbjRI2dpm0ErQc-4 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/iBiEqv_coDBG-QNNPWYy1vUSq9kCbjRI2dpm0ErQc-4", host: "sql.rectoverso.store"
+2020/02/15 22:54:30 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:30 [error] 105#105: *11 no live upstreams while connecting to upstream, client: 66.133.109.36, server: sql.rectoverso.store, request: "GET /.well-known/acme-challenge/iBiEqv_coDBG-QNNPWYy1vUSq9kCbjRI2dpm0ErQc-4 HTTP/1.1", upstream: "http://sql.rectoverso.store/.well-known/acme-challenge/iBiEqv_coDBG-QNNPWYy1vUSq9kCbjRI2dpm0ErQc-4", host: "sql.rectoverso.store"
+2020/02/15 22:54:30 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:31 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:31 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:32 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:33 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:33 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:33 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:34 [error] 105#105: *7 no live upstreams while connecting to upstream, client: 86.247.191.78, server: sql.rectoverso.store, request: "POST /login/ HTTP/1.1", upstream: "http://sql.rectoverso.store/login/", host: "sql.rectoverso.store"
+2020/02/15 22:54:53 [notice] 109#109: signal process started
+2020/02/15 22:59:42 [notice] 115#115: signal process started
+2020/02/15 23:20:41 [notice] 120#120: signal process started
+2020/02/15 23:20:42 [notice] 124#124: signal process started
+2020/02/15 23:20:42 [notice] 128#128: signal process started
+2020/02/15 23:21:43 [notice] 132#132: signal process started
+2020/02/15 23:22:22 [notice] 136#136: signal process started
+2020/02/15 23:30:23 [notice] 140#140: signal process started
+2020/02/15 23:30:25 [notice] 144#144: signal process started
+2020/02/15 23:30:25 [notice] 148#148: signal process started
+2020/02/15 23:31:27 [notice] 152#152: signal process started
+2020/02/15 23:42:30 [notice] 156#156: signal process started
+2020/02/15 23:42:32 [notice] 160#160: signal process started
+2020/02/15 23:43:44 [notice] 164#164: signal process started
+2020/02/15 23:44:50 [notice] 168#168: signal process started
+2020/02/15 23:45:02 [notice] 172#172: signal process started
+2020/02/15 23:45:13 [notice] 176#176: signal process started
