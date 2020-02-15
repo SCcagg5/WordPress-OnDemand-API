@@ -4,6 +4,7 @@ from Object.tpe import tpe
 from Object.order import order
 from Object.calc import sim
 from Object.admin import admin
+from Object.wordpressapi import wordpress
 import json
 
 def getauth(cn, nextc):
@@ -206,4 +207,20 @@ def gettokenadm(cn, nextc):
 
     use = user(cn.pr["usr_id"])
     err = use.gettoken()
+    return cn.call_next(nextc, err)
+
+def wordpress(cn, nextc):
+    err = check.contain(cn.pr, ["domain"])
+    if not err[0]:
+        return cn.toret.add_error(err[1], err[2])
+    cn.pr = err[1]
+
+    use = wordpress(cn.pr["domain"])
+    cn.private["wordpress"] = use
+    err = cn.private["wordpress"].checkdomain()
+    return cn.call_next(nextc, err)
+
+def new(cn, nextc):
+    use = cn.private["wordpress"]
+    err = use.new()
     return cn.call_next(nextc, err)
