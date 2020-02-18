@@ -1,5 +1,6 @@
 import os
 import string
+import random
 
 class wordpress:
     def __init__(self, domain, name = None):
