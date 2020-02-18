@@ -15,8 +15,8 @@ class wordpress:
         if os.path.isdir(save):
             return [False, "Save name already in use: '" + name + "'" , 400]
         if not os.path.isdir(base):
-            return [False, "Domain does not exist: '" + name + "'" , 400]
-        os.system("cp -r" + base + " " + save)
+            return [False, "Domain does not exist: '" + self.domain + "'" , 400]
+        os.system("cp -r " + base + " " + save)
         return [True, {"name": name}, None]
 
     def deploy(self, login, email, name = None):
@@ -48,6 +48,7 @@ class wordpress:
         return [True, {"url": "http://" + self.domain , "user": {"login": login, "password": password, "email": email}}, None]
 
     def new(self):
+        name = name if name is not None else self.name
         base = "/wordpress/" + self.domain
         if os.path.isdir(base):
             return [False, "Domain already in use : '" + name + "'" , 400]
