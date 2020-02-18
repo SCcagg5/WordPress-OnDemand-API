@@ -30,7 +30,7 @@ class wordpress:
         if not os.path.isdir(save):
             return [False, "Save name does not exist : '" + name + "'" , 400]
         if os.path.isdir(base):
-            return [False, "Domain already in use : '" + name + "'" , 400]
+            return [False, "Domain already in use : '" + self.domain + "'" , 400]
         letters = string.ascii_lowercase
         password = ''.join(random.choice(letters) for i in range(10))
         os.system(' mkdir /wordpress/' + self.domain + ' ;\
