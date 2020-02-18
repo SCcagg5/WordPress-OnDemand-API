@@ -35,7 +35,7 @@ class wordpress:
                     cp -r '+ save +'/* /wordpress/' + self.domain + ';\
                     cp /wordpress/' + self.domain + '/sample.env /wordpress/' + self.domain + '/.env;\
                     echo "V_VIRTUAL_HOST=' + self.domain + '\nV_DB_CONTAINER=db_' + self.safedomain + '\nV_WP_CONTAINER=wp_' + self.safedomain + '" >> /wordpress/' + self.domain + '/.env ;\
-                    echo -e "define( \'DB_HOST\', \'db_' + self.safedomain + '\');" >> /wordpress/' + self.domain + '/html/wp-config.php ;\
+                    echo "define( \'DB_HOST\', \'db_' + self.safedomain + '\');" >> /wordpress/' + self.domain + '/html/wp-config.php ;\
                     cd /wordpress/' + self.domain + ' && docker-compose up -d;\
 		            chown www-data /wordpress/' + self.domain + '/html -R ;\
                     docker exec wp_' + self.safedomain + ' curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar ;\
@@ -44,7 +44,7 @@ class wordpress:
                     docker exec wp_' + self.safedomain + ' wp-cli --allow-root user create ' + login + ' '+ email +' --role=administrator --user_pass=' + password + ' ;\
                     docker exec wp_' + self.safedomain + ' wp-cli --allow-root option update home "http://' + self.domain + '" ;\
                     docker exec wp_' + self.safedomain + ' wp-cli --allow-root option update siteurl "http://' + self.domain + '" ;\
-                    echo -e "php_value memory_limit 300M\nphp_value post_max_size 300M\nphp_value upload_max_filesize 300M" >> /wordpress/' + self.domain + '/html/.htaccess;')
+                    echo "php_value memory_limit 300M\nphp_value post_max_size 300M\nphp_value upload_max_filesize 300M" >> /wordpress/' + self.domain + '/html/.htaccess;')
         return [True, {"url": "http://" + self.domain , "user": {"login": login, "password": password, "email": email}}, None]
 
     def new(self):
@@ -56,7 +56,7 @@ class wordpress:
                     echo "V_VIRTUAL_HOST=' + self.domain + '\nV_DB_CONTAINER=db_' + self.safedomain + '\nV_WP_CONTAINER=wp_' + self.safedomain + '" >> /wordpress/' + self.domain + '/.env ;\
                     cd /wordpress/' + self.domain + ' && docker-compose up -d;\
 		            chown www-data /wordpress/' + self.domain + '/html -R ;\
-                    echo -e "php_value memory_limit 300M\nphp_value post_max_size 300M\nphp_value upload_max_filesize 300M" >> /wordpress/' + self.domain + '/html/.htaccess;')
+                    echo "php_value memory_limit 300M\nphp_value post_max_size 300M\nphp_value upload_max_filesize 300M" >> /wordpress/' + self.domain + '/html/.htaccess;')
         return [True, {"url": "http://" + self.domain}, None]
 
 
