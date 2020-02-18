@@ -1,4 +1,5 @@
 import os
+import string
 
 class wordpress:
     def __init__(self, domain, name = None):
