@@ -220,7 +220,27 @@ def wordpressb(cn, nextc):
     err = cn.private["wordpress"].checkdomain()
     return cn.call_next(nextc, err)
 
-def new(cn, nextc):
+def wp_new(cn, nextc):
     use = cn.private["wordpress"]
     err = use.new()
+    return cn.call_next(nextc, err)
+
+def wp_save(cn, nextc):
+    err = check.contain(cn.pr, ["name"])
+    if not err[0]:
+        return cn.toret.add_error(err[1], err[2])
+    cn.pr = err[1]
+
+    use = cn.private["wordpress"]
+    err = use.save(cn.pr["name"])
+    return cn.call_next(nextc, err)
+
+def wp_deploy(cn, nextc):
+    err = check.contain(cn.pr, ["login", "email", "name"])
+    if not err[0]:
+        return cn.toret.add_error(err[1], err[2])
+    cn.pr = err[1]
+
+    use = cn.private["wordpress"]
+    err = use.deploy(cn.pr["login"], cn.pr["email"], cn.pr["name"])
     return cn.call_next(nextc, err)
